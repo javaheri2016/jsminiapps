@@ -1,0 +1,57 @@
+<html>
+
+<head lang="pl">
+    <meta charset="UTF-8">
+    <title>Mini Apps - Małe aplikacje</title>
+
+    <style>
+        p,
+        #missing {
+            font-size: 1.2em;
+            padding: 10px;
+            color: cornflowerblue;
+        }
+        
+        .border {
+            border: red solid 2px;
+            border-radius: 10px;
+            width: 20%;
+            text-align: center;
+        }
+        
+        h3 {
+            padding-top: 25px;
+            padding-left: 10px;
+            color: midnightblue;
+        }
+        
+        #input {
+            margin: 5px;
+            font-size: 1.1em;
+            padding: 5px;
+            border: red solid 2px;
+            border-radius: 10px;
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+    <h3>Brakujące liczby</h3>
+    <p> Dana jest tablica z liczbami całkowitymi np. [2, 3, 7, 4, 9].<br> Funkcja pokazuje brakujące liczby z przedziału 1 do 10.<br><br> Brakujące liczby to:</p>
+
+    <div id="missing" class="border"></div>
+
+
+    <h3>Dzielenie ciągu znaków</h3>
+    <p>Wpisz ciąg znaków i odkliknij poza ramkę.<br> Ciąg znaków zostanie rozdzielomy spacją co 4 znaki.</p>
+    <form>
+        <input id="input" type="text" maxlength="25" placeholder="wpisz ciąg znaków"></form>
+
+    <script src="missing.js"></script>
+    <script src="addspace.js"></script>
+</body>
+
+</html>
